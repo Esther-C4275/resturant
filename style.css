@@ -1,0 +1,58 @@
+
+html,body{
+    
+    background-color: #FFEDFA
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #E195AB;
+    width: 100%;
+
+    
+   
+}
+
+.abc{
+    color: rgba(255, 255, 255, 0.779);
+    
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.779);
+    background-color: #E195AB;
+
+}
+
+.button:hover{
+    background-color: rgba(128, 128, 128, 0.728);
+    transform: scale(1.05);
+
+}
+
+.img{
+width: 200px;
+display: flex;
+justify-content: center;
+align-content: flex-end;
+}
+
+h1{
+   font-family:  "Moon Dance", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 20px;
+
+}
+
+p{
+    text-transform: capitalize;
+    font-family: "Moon Dance", cursive;
+    font-size: 20px;
+}
